@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio</title>
+    <link rel="stylesheet" href="./css/FazerPedido.css">
+
+</head>
+<body>
+    <header>
+        <img id="logo" src="./imagem/logo.jpg" alt="logo">
+        <h1>Lanchonete do Luiz</h1>
+    </header>
+
+    <nav>
+        <a href="paginainicial.html">Pagina Inicial</a>
+        <a href="lanches.html">Lanches</a>
+        <a href="sobre.html">Sobre Nós</a>
+    </nav>
+    <div>
+    <form>
+
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 50vh;
+            }
+            .form-group {
+                margin: 10px;
+            }
+            
+                
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class= "campo">
+                <div>Faça seu pedido</div>
+                    <textarea rows="6" style="width: 26em;" id="pedido" nome="pedido"></textarea>
+
+                </div>    
+            <button class="botao" type="submit">fazer pedido</button>
+        </div>
+    </body>
+    </html>
+    
+
+    
+<footer>
+</footer>
+</body>
+</html>
